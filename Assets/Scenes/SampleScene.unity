@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 856215742}
   - component: {fileID: 856215744}
   - component: {fileID: 856215745}
+  - component: {fileID: 856215746}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -557,7 +558,7 @@ Transform:
   m_GameObject: {fileID: 856215741}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.73, y: -2.54, z: 0}
+  m_LocalPosition: {x: -9.61, y: -2.54, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -636,6 +637,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.7401927, y: 2.7401915}
   m_EdgeRadius: 0
+--- !u!114 &856215746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856215741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193174994feb8984da42ba5529261780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2d: {fileID: 856215744}
+  speed: 3
 --- !u!1 &889613037
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,5 +2262,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 856215743}
-  - {fileID: 1380334928}
   - {fileID: 2005090177}
+  - {fileID: 1380334928}
