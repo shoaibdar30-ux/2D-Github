@@ -33,7 +33,10 @@ public class PlayerController : MonoBehaviour
             rigidbody2d.linearVelocity = new Vector2(0f, 0f);
         }
     }
-   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Level Completed");
+    }
 
 
 }
