@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
                 {
-             //stop
+             rigidbody2d.linearVelocity = new Vector2(0f,0f);
         }
 
                    
